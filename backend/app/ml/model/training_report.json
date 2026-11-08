@@ -1,0 +1,43 @@
+{
+  "model_architecture": "DistilBERT (distilbert-base-uncased)",
+  "num_classes": 7,
+  "classes": [
+    "Clogging",
+    "Facility Defect",
+    "Invisibility",
+    "Lamp Breakage",
+    "Leaving",
+    "Overgrowth",
+    "Road Damage"
+  ],
+  "total_dataset_size": 4997,
+  "train_size": 3497,
+  "val_size": 750,
+  "test_size": 750,
+  "epochs": 2,
+  "batch_size": 16,
+  "learning_rate": 2e-05,
+  "max_length": 64,
+  "best_val_macro_f1": 1.0,
+  "training_time_seconds": 2068.68,
+  "training_date": "2026-10-30 19:41:22",
+  "device_used": "cpu",
+  "history": {
+    "train_loss": [
+      0.6459691431288306,
+      0.018817160074433237
+    ],
+    "val_loss": [
+      0.021591210420778457,
+      0.011164297012889639
+    ],
+    "val_accuracy": [
+      1.0,
+      1.0
+    ],
+    "val_f1_macro": [
+      1.0,
+      1.0
+    ]
+  }
+}

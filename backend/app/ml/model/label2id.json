@@ -1,0 +1,9 @@
+{
+  "Clogging": 0,
+  "Facility Defect": 1,
+  "Invisibility": 2,
+  "Lamp Breakage": 3,
+  "Leaving": 4,
+  "Overgrowth": 5,
+  "Road Damage": 6
+}

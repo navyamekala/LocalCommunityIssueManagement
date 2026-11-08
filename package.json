@@ -1,0 +1,16 @@
+{
+  "name": "localcommunityissuemanagement",
+  "version": "1.0.0",
+  "description": "An end-to-end AI-powered web platform for reporting, classifying, tracking, and resolving citizen problems in villages and towns. Powered by a fine-tuned **DistilBERT** Transformer NLP model, **FastAPI** backend, and **React + Vite + Leaflet** interactive frontend.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
