@@ -195,11 +195,11 @@ def seed_database():
 
 @asynccontextmanager
 async def lifespan(app: FastAPI):
-    # Startup: ensure tables created and database seeded
     Base.metadata.create_all(bind=engine)
     seed_database()
-    # Preload DistilBERT predictor into memory
-    DistilBERTIssuePredictor.get_instance()
+
+    # DistilBERTIssuePredictor.get_instance()
+
     yield
     # Shutdown logic if needed
 
